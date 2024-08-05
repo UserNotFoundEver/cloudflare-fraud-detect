@@ -3,7 +3,10 @@
 Signature-Based Detection: Uses a list of known malware file hashes to detect known malware.
 # Heuristic Analysis: 
 
-Adds a placeholder for heuristic checks, which can be expanded to detect suspicious patterns.
+Now add a placeholder for heuristic checks, which can be expanded to detect suspicious patterns and detective like this amongst other ways.
+
+```shasum -a 256 path_to_malware_file
+```
 
 # Behavioral Analysis: Monitors a specified directory for unusual file modifications and triggers file analysis when changes are detected.
 Logging Enhancements: Provides detailed logs for all actions, including file downloads, analysis results, and file modifications.
